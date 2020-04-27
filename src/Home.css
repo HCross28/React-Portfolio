@@ -1,0 +1,20 @@
+.aboutMe {
+    width: 70%;
+    display: inline-block;
+    overflow: none;
+}
+
+.profilePic {
+    width: 30%;
+    display: inline-block;
+}
+
+.NFCpicture {
+    width: 360px;
+    height: 600px; 
+    margin-left: 100px;
+}
+
+ol li {
+    list-style-type: none;
+}

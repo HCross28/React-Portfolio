@@ -1,0 +1,48 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* set column sizes here */
+    grid-template-rows: auto auto; /* we want two rows */
+
+    grid-gap: 10px; /* how far between cells? */
+    grid-auto-flow: column; /* fill in by column, not row */
+
+    /* temporary property for visualization */
+    height: 600px;
+}
+
+
+.projects {
+    position: relative; 
+    /* float: left; */
+    width: 270px;
+    height: 200px;
+    /* margin: 20px 90px 25px 90px;  */
+    margin-top: 50px;
+    margin-left: 33%;
+  }
+
+  .projects img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .projects h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 240px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: rgb(0, 170, 00);
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 22px;
+  }
+
+  .card {
+    position: inline-block;
+    /* width: 100%;
+    margin: auto; */
+  }
